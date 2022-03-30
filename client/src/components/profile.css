@@ -1,0 +1,42 @@
+.title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 50px;
+}
+.container {
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -10px 10px 10px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+.name{
+    margin: 15px;
+    font-size: 28px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.email{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.field{
+    margin: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.image{
+    border-radius: 20px;
+}

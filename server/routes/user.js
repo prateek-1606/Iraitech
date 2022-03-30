@@ -26,8 +26,9 @@ routes.post('/signup', (req, res) => {
                             password: newpassword
                         })
                         newuser.save()
-                            .then(() => {
-                                res.send('user created successfully');
+                            .then((user) => {
+                                const token = jwt.sign({ _id: user._id }, process.env.JWT_SECRET);
+                                res.send({ token });
                             })
                             .catch((err) => console.log(err));
                     })
